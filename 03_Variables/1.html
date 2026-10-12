@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE employees [ 
+    <!ELEMENT employees (employee+)> 
+    <!ELEMENT employee (empid, empname, department, salary)> 
+    <!ELEMENT empid (#PCDATA)> 
+    <!ELEMENT empname (#PCDATA)> 
+    <!ELEMENT department (#PCDATA)> 
+    <!ELEMENT salary (#PCDATA)> 
+]> 
+ 
+<employees> 
+ 
+    <employee> 
+        <empid>101</empid> 
+        <empname>Rahul Sharma</empname> 
+        <department>HR</department> 
+        <salary>30000</salary> 
+    </employee> 
+ 
+    <employee> 
+        <empid>102</empid> 
+        <empname>Anita Verma</empname> 
+        <department>Finance</department> 
+        <salary>45000</salary> 
+    </employee> 
+ 
+    <employee> 
+        <empid>103</empid> 
+        <empname>Arjun Singh</empname> 
+        <department>IT</department> 
+        <salary>50000</salary> 
+    </employee> 
+ 
+</employees>
